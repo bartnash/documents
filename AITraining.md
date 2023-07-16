@@ -1,10 +1,20 @@
 
 # Artificial Intelligence
 
+## Predictive AI
+
+Predictive AI uses patterns in current data to predict future outcomes.  Nearest neighbor is one algorithm used here.
+
+## Artificial General Intelligence (AGI)
+The ability for machines to understand, learn and apply general knowledge across a wide range of tasks and domains.
+
 ## Generative AI
 
 Generative AI is a type of artificial intelligence that creates new content, such as images, text, or music, by learning patterns and characteristics from existing data.
 
+
+## We have no moat
+[We Have No Moat and Neither Does OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither) "Leaked" doc from someone at Google analyzing their view of the state of open source vs closed AI. Great starting point for really learning about generative AI.  I don't think it has much
 
 ### ChatGPT
 Is a chat interface to a "Generative Pre-trained Transformer." The term "Generative" refers to the model's ability to generate new content, "Pre-trained" indicates that the model is initially trained on a large corpus of text data, and "Transformer" refers to the transformer architecture, which is a key component of the model. The GPT models are designed to generate text by leveraging the knowledge learned during pre-training on vast amounts of text data.
