@@ -26,7 +26,8 @@ It is base on a model generated with a data set from 2021, so some info will be 
 	* [CollosalChat](https://chat.colossalai.org/)  Down, couldn't test.
 	* Bing chat, only accessible through edge browser. Very limited.  Won't generate code.  Isn't conversational.  Did I install edge on RHEL for this? meh
 	* [you.com](https://you.com)Pretty nice.  Seemed to do a better job than ChatGPT of telling me the basics of writing a loop in Python.  The info it gave me lead me to ask questions with naturally progressed deeper into the language.  Let's you fine tune what sources it get's info from.   It is like Bing chat in that it is an AI augmented search engine, but more useful results similar to ChatGPT.  It allows you to like or dislike information sources.  No history of chats, so save it if you get something useful.
-	* [bard.google.com] Looks comparable to chatgpt, based on Pathways Language Model 2 (PaLM 2).  In addition to PaLM 2, Bard also uses Google Search to provide users with access to up-to-date information.  Also has IDE plugins.
+	* [bard.google.com](https://bard.google.com/) Looks comparable to chatgpt, based on Pathways Language Model 2 (PaLM 2).  In addition to PaLM 2, Bard also uses Google Search to provide users with access to up-to-date information.  Also has IDE plugins?
+	* [claude.ai](https://claude.ai/chats)
 	
 ## AI Based Tools
 
