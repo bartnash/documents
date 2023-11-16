@@ -44,5 +44,21 @@ It doesn't seem suitable for templating projects or generating more than a few l
 ## Hugging face
 [Hugging face](https://huggingface.co/) is an open source "AI community" which houses AI models, datasets, etc. and provides ability to share, collaborate and use the models, running on Hugging Face's infrastructure.  It is an "open source Machine Learning movement."
 
+## Programming AI
+
+[PaLM2] (https://developers.generativeai.google/products/palm)
+fast.ai
+
+PyTorch vs Tensorflow
+fastai library built on top of pytorch
+
+## Large Language Model
+
+## Small Language Model
+Look into Phi 1.5 through Phi 2
+
+
+
+
 
 

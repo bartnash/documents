@@ -38,6 +38,14 @@ function hello() {
 
 hello "John"
 ```
+Note that it isn't necessary to specify arguments in the function declaration,
+nor is it necessary to explicitly return a value.
+
+
+```bash
+greeting="$(hello John)"
+
+```
 
 ## Strings
 
