@@ -29,8 +29,8 @@ For each image:
 If this is an online service, one user could create the initial album
 upload their images and invite others who were on the trip to do the 
 same.  Each user would go through their initial conversation about the
-images they attach and then have opportunity to make comments on each
-image.  Creator of the album would have editorial rights to entire 
+images they attach and then have opportunity to make comments on all
+images.  Creator of the album would have editorial rights to entire 
 album.
 
 Could cataloger learn along the way?   If the user names the people in
@@ -43,3 +43,27 @@ future catalogs?
 There are definitely privacy concerns here.  This could run locally
 and keep all personal info on local PC.  Could run in cloud, but keep
 personal info on user's Google drive, dropbox, etc.
+
+For security, users don't necessarily have to create a full login account,
+just provide either email or phone #.  Application would send verification
+code as email or text.  Might require the album owner to have full login,
+at least in order to unlock certain functionality.
+
+Allow each user to specify whether their image can be shared on social media.
+  Could/should that be applied to each picture they're in, as well as the
+  onse they uploaded?
+
+Could possibly blur out people who want to remain incognito.  Cool feature or 
+just ugly.
+
+In view mode, touching a persons face might show read or play their comments
+for that picture or display bio.
+
+Would there be way to make editing the album a collaborative, realtime
+experience?   All participants could be on a shared video call, talking
+together.  Could system know who each person on the call is and automatically
+support each uploading photos and identify their individual comments
+realtime?
+
+Could provide voting for whether or not to include specific images in the
+final album.   Could vote on captions as well.
