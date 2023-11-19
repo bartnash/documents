@@ -14,12 +14,12 @@ Generative AI is a type of artificial intelligence that creates new content, suc
 
 
 ## We have no moat
-[We Have No Moat and Neither Does OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither) "Leaked" doc from someone at Google analyzing their view of the state of open source vs closed AI. Great starting point for really learning about generative AI.  I don't think it has much
+[We Have No Moat and Neither Does OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither) "Leaked" doc from someone at Google analyzing their view of the state of open source vs closed AI. Great starting point for really learning about generative AI.
 
 ### ChatGPT
 Is a chat interface to a "Generative Pre-trained Transformer." The term "Generative" refers to the model's ability to generate new content, "Pre-trained" indicates that the model is initially trained on a large corpus of text data, and "Transformer" refers to the transformer architecture, which is a key component of the model. The GPT models are designed to generate text by leveraging the knowledge learned during pre-training on vast amounts of text data.
 
-It is base on a model generated with a data set from 2021, so some info will be out of date.
+It is based on a model generated with a data set from 2021, so some info will be out of date.
 
 #### Alternatives
 
