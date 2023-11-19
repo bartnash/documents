@@ -67,3 +67,28 @@ realtime?
 
 Could provide voting for whether or not to include specific images in the
 final album.   Could vote on captions as well.
+
+# Personal Proxy
+Personal proxy-type assistant which can absorb details about you, as a person.   It should 
+learn through absorbing documents like resumes, biography, maybe social media profiles.  
+It should have two interfaces, one for others to interact with and one for you. It could be expanded to 
+help manage calendar, answer phone calls and texts.
+
+- WhoAmI interface should accept docs like resume, etc.  Also should have chat interface in 
+which I can type in information about myself.  It would be great if it could conduct an interview and ask questions.
+- WhoAreYou interface is open to public (or limited audience).  It can be used to train the model initially.  You can ask questions and it will answer as best it can.  If it needs more info, it should query the subject. And reply to querior immediately or via email/text (would require interviewer to provide contact info).
+
+The application should have both a text and voice interface.
+
+Should enable interactive voice in a web screen or by an actual phone call.
+
+Need a way for both voicemail and text to immediately switch to real-time interactive mode with proxy.
+Over time, this could learn more details about the subject and could be made available through voicemail options and text
+- Voicemail - "I can't take your call right now, you can leave a message or speak to Waldo, my personal assistant who is available immediately"
+- Text - I'm busy, text "Hey Waldo" to talk to my personal assistant.
+  - Any text that starts with "Waldo,", "Hey Waldo" would start a dialog with Waldo.   All replies from Waldo should end in "-Waldo".
+  - In fact, the initial "I'm busy" reply should be from Waldo.  "Bart is busy at the moment, he'll get back to you when he can, or you can talk to me.  -Waldo".  It should then react to any texts within the next n minutes as -Waldo.  Text basically becomes an interface to Waldo.
+
+
+
+
