@@ -72,7 +72,7 @@ final album.   Could vote on captions as well.
 Personal proxy-type assistant which can absorb details about you, as a person.   It should 
 learn through absorbing documents like resumes, biography, maybe social media profiles.  
 It should have two interfaces, one for others to interact with and one for you. It could be expanded to 
-help manage calendar, answer phone calls and texts.
+help manage calendar, answer phone calls and texts.  Could eventually be given access to email and calendar.
 
 - WhoAmI interface should accept docs like resume, etc.  Also should have chat interface in 
 which I can type in information about myself.  It would be great if it could conduct an interview and ask questions.

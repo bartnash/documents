@@ -57,6 +57,11 @@ fastai library built on top of pytorch
 ## Small Language Model
 Look into Phi 1.5 through Phi 2
 
+## fastai book
+[Fast.ai](https://www.fast.ai/) has a wealth of info about deep learning, including:
+ - The [Fastai course](https://course.fast.ai/), also available on [github](https://github.com/fastai/fastbook/tree/master)
+   I've started working through it: [Kaggle notebooks](https://www.kaggle.com/docs/notebooks)
+
 
 
 
