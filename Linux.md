@@ -1,6 +1,11 @@
 ## Package Manager
 ### Ubuntu - apt
  - sudo apt update
+   - Updates package information
+ - sudo apt upgrade
+   - Installs available upgrades
+ - sudo apt install xyz
+   - Installs the 'xyz' package
 ### Fedora
  - sudo dnf ???
  
