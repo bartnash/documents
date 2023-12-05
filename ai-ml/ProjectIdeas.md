@@ -54,7 +54,8 @@ Allow each user to specify whether their image can be shared on social media.
   onse they uploaded?
 
 Could possibly blur out people who want to remain incognito.  Cool feature or 
-just ugly.
+just ugly.  Could AI edit the image to either remove them, or modify the image to make
+them unrecognizable, ie, look like a random stranger?
 
 In view mode, touching a persons face might show read or play their comments
 for that picture or display bio.
@@ -90,5 +91,18 @@ Over time, this could learn more details about the subject and could be made ava
   - In fact, the initial "I'm busy" reply should be from Waldo.  "Bart is busy at the moment, he'll get back to you when he can, or you can talk to me.  -Waldo".  It should then react to any texts within the next n minutes as -Waldo.  Text basically becomes an interface to Waldo.
 
 
+# Fediverse Moderator 
+Use AI to build a moderator for Fediverse applications.  This 
+could be a plugin enabled by individuals, or at the host level.
+
+Ideally it would be able to both find items to show the end user
+that match their interests, as well as filter out offensive 
+materials.   
+
+Could it intentionally provide alternative points of view?  ie,
+instead of only magnifying the echo chamber, help people seek
+out a counter point.
+
+Should focus on ActivityPub to begin with?
 
 
