@@ -147,7 +147,10 @@ A simplified view of some of the major components:
  Howto:
   - 
 
+### Which model to use?
 
+#### [LLM Explorer](https://llm.extractum.io/)
+Nice tool for researching opensource llms.
 
 
 

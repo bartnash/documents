@@ -202,3 +202,15 @@ for file in filenames:
 
 
 ```
+
+### Jupyter Notebook
+
+Install it:
+``` bash
+ pip install jupyter
+```
+
+Start the server:
+``` bash
+jupyter notebook
+```
