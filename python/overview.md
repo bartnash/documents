@@ -146,6 +146,10 @@ import sys
 print("Error occurred")
 sys.exit(1) 
 ```
+
+### Click
+[Click](https://pypi.org/project/click/) is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It’s the “Command Line Interface Creation Kit”. It’s highly configurable but comes with sensible defaults out of the box.
+
 ### subprocess
 Python has a built-in module called subprocess that makes it easy to execute commands and capture their output and exit status. Here is an example of a script that executes a command and prints its exit status:
 
