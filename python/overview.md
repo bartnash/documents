@@ -218,3 +218,7 @@ Start the server:
 ``` bash
 jupyter notebook
 ```
+
+### Web Development
+[Flask introduction](https://realpython.com/flask-project/)
+
