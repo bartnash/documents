@@ -13,3 +13,5 @@ OpenRewrite is probably more mature and provides tooling for applying "recipes" 
 https://gitlab.cee.redhat.com/DevAI/code-assist  
 
 [ai-on-openshift code assistant demo](https://ai-on-openshift.io/demos/codellama-continue/codellama-continue/#configuration)
+
+
