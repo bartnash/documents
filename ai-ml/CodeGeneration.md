@@ -9,3 +9,7 @@ Pixeebot uses [Codemodder](https://codemodder.io/) to function as an automated s
 OpenRewrite is probably more mature and provides tooling for applying "recipes" to a source repo to automate upgrades, etc.
 
 
+## Watsonx Code Assist
+https://gitlab.cee.redhat.com/DevAI/code-assist  
+
+[ai-on-openshift code assistant demo](https://ai-on-openshift.io/demos/codellama-continue/codellama-continue/#configuration)
