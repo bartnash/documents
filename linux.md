@@ -22,7 +22,9 @@ needs-restarting [-r]
 
 
 ## Mounting Google Drive
-I'm using [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse)
+Just adding the account to managed accounts in Gnome makes files available through Nautilus, which may be good enough.
+
+I have also used [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse).
 
 It looks like it won't automount after reboot.
 
