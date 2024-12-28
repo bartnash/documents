@@ -20,6 +20,9 @@ needs-restarting [-r]
  
  [Quick Reference](https://docs.fedoraproject.org/en-US/quick-docs/dnf-package-manager-quick-reference/)
 
+## Disk Management
+
+lsblk - list block devices.  Lists information about available block devices
 
 ## Mounting Google Drive
 Just adding the account to managed accounts in Gnome makes files available through Nautilus, which may be good enough.
