@@ -1,2 +1,2 @@
 # Documents
-A simple repository for storing documentation of various things I have researched and learned.
+A simple repository for storing information and documentation references I have gathered from various places.

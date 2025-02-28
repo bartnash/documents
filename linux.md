@@ -20,6 +20,25 @@ needs-restarting [-r]
  
  [Quick Reference](https://docs.fedoraproject.org/en-US/quick-docs/dnf-package-manager-quick-reference/)
 
+## Dual Boot
+Dec 2024 - I configured dual boot of Fedora 41 and Windows 11 (pre-installed) 
+   on new Dell desktop.  Didn't take notes, but here's what I remember:
+ - In Windows, reduce partition of C: to around 180G, leaving around 800G 
+    available.  System was configured to use bitlocker, which I did not
+    turn off.  Did configure PIN for windows account as part of initial
+    setup.
+ - Reboot into bios settings.  Disable secure boot.  Was not able to
+    configure boot from USB as UEFI boot was enabled.  Added new boot option
+    and selected from among boot options on USB drive.  Don't remember which
+    one I chose, maybe GRUB?
+ - Boot into Linux, play around a bit to make sure system seems functional.  Run 
+    the "Install to Drive" tool.  Mostly took defaults for partition setup.
+ - Configure Linux as you wish.
+ - To access original C: drive, log into Windows account to obtain bitlocker key. 
+    This will need to be provided to access drive from Linux or during next boot
+    of Windows partition.
+ - Go back into BIOS settings and re-enable secure boot.
+
 
 ## Mounting Google Drive
 I'm using [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse)

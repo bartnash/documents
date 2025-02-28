@@ -16,3 +16,7 @@ curl https://start.spring.io/starter.tgz -d type=maven-project -c language=java 
 ```
 
 Maybe all the url args could just be passed after starter.tgz as is?
+
+## Detailed guide for developing REST services
+[Building REST services with Spring](https://spring.io/guides/tutorials/rest)
+
