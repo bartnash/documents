@@ -1,7 +1,6 @@
 # Web Frameworks to learn
 ## Static Site Generators
 - [Eleventy](https://www.11ty.dev/)
-- [React](https://react.dev/)
 - 
 
 ## Components
@@ -13,8 +12,7 @@ Has starters for html, Angular, React and VueJS.
 
 - 
 
-## React
-
+## [React](https://react.dev/)
 ### Generate a starter app
 Relies on node and npm,
 

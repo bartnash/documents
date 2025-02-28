@@ -7,7 +7,7 @@
  - sudo apt install xyz
    - Installs the 'xyz' package
 ### Fedora
- - sudo dnf ???
+ - sudo dnf 
 To see what updates would be applied:
 ```
 dnf list udates
@@ -39,9 +39,15 @@ Dec 2024 - I configured dual boot of Fedora 41 and Windows 11 (pre-installed)
     of Windows partition.
  - Go back into BIOS settings and re-enable secure boot.
 
+=======
+## Disk Management
+
+lsblk - list block devices.  Lists information about available block devices
 
 ## Mounting Google Drive
-I'm using [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse)
+Just adding the account to managed accounts in Gnome makes files available through Nautilus, which may be good enough.
+
+I have also used [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse).
 
 It looks like it won't automount after reboot.
 
