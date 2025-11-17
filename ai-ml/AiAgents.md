@@ -12,5 +12,6 @@ Augment LLM with
 [AI Agent Template](https://github.com/redhat-data-and-ai/template-agent)
 
 [MCP Server Template](https://github.com/redhat-data-and-ai/template-mcp-server)
+[MCP Protocol](https://github.com/modelcontextprotocol)
 
 [Dataverse Agent](https://source.redhat.com/departments/it/data_and_ai/dataverse_agent)
