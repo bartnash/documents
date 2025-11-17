@@ -10,7 +10,17 @@
  - sudo dnf 
 To see what updates would be applied:
 ```
-dnf list udates
+sudo dnf list udates
+```
+
+To see all installed kernels:
+```
+sudo dnf list installed kernel --showduplicates
+```
+
+To see what kernel is running:
+```
+uname -r
 ```
 
 After updating, to determine what services should be restarted, or if system needs re-booting:

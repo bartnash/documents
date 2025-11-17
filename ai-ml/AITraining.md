@@ -122,6 +122,8 @@ Framework for building RAGs based models. Builds an index of your documents whic
  - RAGs is a Streamlit app that lets you create a RAG pipeline from a data source using natural language.  https://github.com/run-llama/rags
 
 
+### LLama source
+https://github.com/meta-llama/llama3/blob/main/llama/model.py
 
 ### fastai book
 [Fast.ai](https://www.fast.ai/) has a wealth of info about deep learning, including:
