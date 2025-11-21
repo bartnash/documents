@@ -1,3 +1,52 @@
+# Agentic Support Framework
+
+Common tools to support an application or suite of applications:
+
+ - AI Chat agent for end users to request support.
+    - Ask how to questions
+    - Request status of system.
+    - Should enter tickets as needed to request human support
+    - Request support.
+ - Agent should be able to be plugged in to slack
+    - Agent should participate in conversations in slack channel, and be
+      able to be interacted with via / or @
+    - Separate tool for periodically generating question/answer based on slack thread, or could automatically or via prompt summarize resolution of thread and ask if it should be added to knowledgebase.  This interaction could be visible at end of thread, or could automatically create a separate dialog with support personnel to refine answer, which could then be posted back to thread as conclusion and added to knowledgebase (only after confirmation from human).
+ - Supported by:
+    - RAG database which contains:
+        - Formal documentation
+        - Answers to previous questions.
+        Database should be updated periodically, either scheduled or 
+        triggered by document updates.
+        Database should automatically be updated based on discussions
+        in slack channel.
+    - MCP server(s) with tools for:
+        - creating tickets
+        - verifying status of application(s)
+        - automatically initiate conversation (or ticket) to 
+            - restart application or components.
+            - update configuration
+            - deploy patches or updates
+            - reach out to other teams support channel.
+
+    - Unique to each help agent instance:
+        - The initial vector DB documentation source
+        - Tools in MCP server specific to application under support.
+    - Generic for all instances:
+        - RAG database interaction
+          - initial load
+          - scheduled load
+          - triggered load
+        - Slack interface
+          - Ability to summarize discussions and update knowledgebase
+          - Possible ability to initiate thread with support personnel
+          - Creating tickets.
+          - Logic for deciding when to "page" support personnel, and how to escalate.
+
+
+# Security Proxy
+As agents interact with local and remote MCP servers and LLMs, there is the potential for unintentional leakage of data via prompts sent to the LLM.  There should be a huge market for a proxy that could be injected between a corporations network and all external LLMs.   The proxy could be a pass-thru or could offer filtering capabilities.  At minimum, it should raise alarms if it notices data passint through that appears to be proprietary or sensitive (customer PII, corporate IP).  It could also attempt to either block such traffic or attempt to mask it.
+
+
 # Photograph Cataloging
 Use generative AI to generate captions for photos, then engage in a conversation 
 with user about each image and refine the caption.  The end result could be
