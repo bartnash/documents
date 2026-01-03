@@ -42,6 +42,12 @@ Should be do-able with some sort of USB drive as well.
       Add an empty 'ssh' file in the root of bootfs.
       Add userconf.txt to root of bootfs, with single line: `user:passwd`.  Password needs to be encrypted with 'openssl passwd -6'
 
+### Boot it
+Insert the SD card and boot it up.
+By default, will be visible on network at raspberrypi.local.
+
+``ssh raspberrypi.local``
+
 ### Minimal Commands
 
 `` sudo apt-get upgrade `` List available package updates.
