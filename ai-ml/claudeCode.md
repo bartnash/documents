@@ -16,6 +16,23 @@ Can be stored in following locations:
  - could it be pulled in from parent directory of repo (I'm in the habit of putting all work/gitlab projects
    in a common directory, would be nice to put info there that applies to all work projects and have a different   CLAUDE.md in the github directory)
 
+#### Note that Claude code changes pretty rapidly.  I'm dating updates below.   Oddly, asking claude code how it works doesn't always seem to work.   I suppose the training is always behind the rapid development.
+
+## --- 03/06/2026 ---
+
+
+## Skills
+
+Skills seem to be solidifying as the mechanism for adding capabilities to coding agents, at least it has been promoted by Anthropic as an open source architecture.
+
+https://agentskills.io/integrate-skills
+
+https://claude.com/blog/organization-skills-and-directory
+
+
+
+## --- Prior to Aug 2025 ---
+
 ## Commands
 ### '#' 
   Anything typed in with a preceding '#' will be stored in 
